@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+.text-primary{
+    color: chocolate;
+}
+.lead{
+    font-size: 20px;
+}
+.btn-primary{
+    background-color: chocolate;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    box-shadow: 0 0 10px    black;
+    cursor: pointer;
+
+}
+/*------ Main Nav Bar--------- */
+.main-nav{
+    background: linear-gradient(45deg,black,darkslategray);
+    color:white;
+    padding: 10px;
+    display: flex;
+    flex-direction :row;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-nav h1{
+    display: flex;
+}
+.main-nav img{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.main-nav ul li a:hover{
+    color: chocolate;
+}
+/*-------Landing Page-----*/
+.container{
+    background: white url("img/photo11-1588985719185-4b612a405cd1.jpg") no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: whitesmoke;
+}
+.container-wrapper{
+    background-color: rgba(0 0 0 0.5) ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
